@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198A62681E3244BA0001C3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62671E3244BA0001C3CE /* AppDelegate.swift */; };
+		198A626A1E3244BA0001C3CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62691E3244BA0001C3CE /* ViewController.swift */; };
+		198A626D1E3244BA0001C3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A626B1E3244BA0001C3CE /* Main.storyboard */; };
+		198A626F1E3244BA0001C3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198A626E1E3244BA0001C3CE /* Assets.xcassets */; };
+		198A62721E3244BA0001C3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A62701E3244BA0001C3CE /* LaunchScreen.storyboard */; };
+		198A627D1E3244BB0001C3CE /* ChatAppForHaptikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A627C1E3244BB0001C3CE /* ChatAppForHaptikTests.swift */; };
+		198A62881E3244BB0001C3CE /* ChatAppForHaptikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62871E3244BB0001C3CE /* ChatAppForHaptikUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		198A62791E3244BB0001C3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 198A625C1E3244BA0001C3CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198A62631E3244BA0001C3CE;
+			remoteInfo = ChatAppForHaptik;
+		};
+		198A62841E3244BB0001C3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 198A625C1E3244BA0001C3CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198A62631E3244BA0001C3CE;
+			remoteInfo = ChatAppForHaptik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		198A62641E3244BA0001C3CE /* ChatAppForHaptik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppForHaptik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A62671E3244BA0001C3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		198A62691E3244BA0001C3CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		198A626C1E3244BA0001C3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		198A626E1E3244BA0001C3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		198A62711E3244BA0001C3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		198A62731E3244BA0001C3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198A62781E3244BB0001C3CE /* ChatAppForHaptikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppForHaptikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A627C1E3244BB0001C3CE /* ChatAppForHaptikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppForHaptikTests.swift; sourceTree = "<group>"; };
+		198A627E1E3244BB0001C3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198A62831E3244BB0001C3CE /* ChatAppForHaptikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppForHaptikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A62871E3244BB0001C3CE /* ChatAppForHaptikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppForHaptikUITests.swift; sourceTree = "<group>"; };
+		198A62891E3244BB0001C3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198A62611E3244BA0001C3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A62751E3244BB0001C3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A62801E3244BB0001C3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198A625B1E3244BA0001C3CE = {
+			isa = PBXGroup;
+			children = (
+				198A62661E3244BA0001C3CE /* ChatAppForHaptik */,
+				198A627B1E3244BB0001C3CE /* ChatAppForHaptikTests */,
+				198A62861E3244BB0001C3CE /* ChatAppForHaptikUITests */,
+				198A62651E3244BA0001C3CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		198A62651E3244BA0001C3CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198A62641E3244BA0001C3CE /* ChatAppForHaptik.app */,
+				198A62781E3244BB0001C3CE /* ChatAppForHaptikTests.xctest */,
+				198A62831E3244BB0001C3CE /* ChatAppForHaptikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198A62661E3244BA0001C3CE /* ChatAppForHaptik */ = {
+			isa = PBXGroup;
+			children = (
+				198A62671E3244BA0001C3CE /* AppDelegate.swift */,
+				198A62691E3244BA0001C3CE /* ViewController.swift */,
+				198A626B1E3244BA0001C3CE /* Main.storyboard */,
+				198A626E1E3244BA0001C3CE /* Assets.xcassets */,
+				198A62701E3244BA0001C3CE /* LaunchScreen.storyboard */,
+				198A62731E3244BA0001C3CE /* Info.plist */,
+			);
+			path = ChatAppForHaptik;
+			sourceTree = "<group>";
+		};
+		198A627B1E3244BB0001C3CE /* ChatAppForHaptikTests */ = {
+			isa = PBXGroup;
+			children = (
+				198A627C1E3244BB0001C3CE /* ChatAppForHaptikTests.swift */,
+				198A627E1E3244BB0001C3CE /* Info.plist */,
+			);
+			path = ChatAppForHaptikTests;
+			sourceTree = "<group>";
+		};
+		198A62861E3244BB0001C3CE /* ChatAppForHaptikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				198A62871E3244BB0001C3CE /* ChatAppForHaptikUITests.swift */,
+				198A62891E3244BB0001C3CE /* Info.plist */,
+			);
+			path = ChatAppForHaptikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198A62631E3244BA0001C3CE /* ChatAppForHaptik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198A628C1E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptik" */;
+			buildPhases = (
+				198A62601E3244BA0001C3CE /* Sources */,
+				198A62611E3244BA0001C3CE /* Frameworks */,
+				198A62621E3244BA0001C3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatAppForHaptik;
+			productName = ChatAppForHaptik;
+			productReference = 198A62641E3244BA0001C3CE /* ChatAppForHaptik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		198A62771E3244BB0001C3CE /* ChatAppForHaptikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198A628F1E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptikTests" */;
+			buildPhases = (
+				198A62741E3244BB0001C3CE /* Sources */,
+				198A62751E3244BB0001C3CE /* Frameworks */,
+				198A62761E3244BB0001C3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				198A627A1E3244BB0001C3CE /* PBXTargetDependency */,
+			);
+			name = ChatAppForHaptikTests;
+			productName = ChatAppForHaptikTests;
+			productReference = 198A62781E3244BB0001C3CE /* ChatAppForHaptikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		198A62821E3244BB0001C3CE /* ChatAppForHaptikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198A62921E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptikUITests" */;
+			buildPhases = (
+				198A627F1E3244BB0001C3CE /* Sources */,
+				198A62801E3244BB0001C3CE /* Frameworks */,
+				198A62811E3244BB0001C3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				198A62851E3244BB0001C3CE /* PBXTargetDependency */,
+			);
+			name = ChatAppForHaptikUITests;
+			productName = ChatAppForHaptikUITests;
+			productReference = 198A62831E3244BB0001C3CE /* ChatAppForHaptikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198A625C1E3244BA0001C3CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "kalpesh dhumal";
+				TargetAttributes = {
+					198A62631E3244BA0001C3CE = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					198A62771E3244BB0001C3CE = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 198A62631E3244BA0001C3CE;
+					};
+					198A62821E3244BB0001C3CE = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 198A62631E3244BA0001C3CE;
+					};
+				};
+			};
+			buildConfigurationList = 198A625F1E3244BA0001C3CE /* Build configuration list for PBXProject "ChatAppForHaptik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198A625B1E3244BA0001C3CE;
+			productRefGroup = 198A62651E3244BA0001C3CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198A62631E3244BA0001C3CE /* ChatAppForHaptik */,
+				198A62771E3244BB0001C3CE /* ChatAppForHaptikTests */,
+				198A62821E3244BB0001C3CE /* ChatAppForHaptikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198A62621E3244BA0001C3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A62721E3244BA0001C3CE /* LaunchScreen.storyboard in Resources */,
+				198A626F1E3244BA0001C3CE /* Assets.xcassets in Resources */,
+				198A626D1E3244BA0001C3CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A62761E3244BB0001C3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A62811E3244BB0001C3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198A62601E3244BA0001C3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A626A1E3244BA0001C3CE /* ViewController.swift in Sources */,
+				198A62681E3244BA0001C3CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A62741E3244BB0001C3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A627D1E3244BB0001C3CE /* ChatAppForHaptikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A627F1E3244BB0001C3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A62881E3244BB0001C3CE /* ChatAppForHaptikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		198A627A1E3244BB0001C3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198A62631E3244BA0001C3CE /* ChatAppForHaptik */;
+			targetProxy = 198A62791E3244BB0001C3CE /* PBXContainerItemProxy */;
+		};
+		198A62851E3244BB0001C3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198A62631E3244BA0001C3CE /* ChatAppForHaptik */;
+			targetProxy = 198A62841E3244BB0001C3CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		198A626B1E3244BA0001C3CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198A626C1E3244BA0001C3CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		198A62701E3244BA0001C3CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198A62711E3244BA0001C3CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		198A628A1E3244BB0001C3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		198A628B1E3244BB0001C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198A628D1E3244BB0001C3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatAppForHaptik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		198A628E1E3244BB0001C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatAppForHaptik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		198A62901E3244BB0001C3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatAppForHaptikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatAppForHaptik.app/ChatAppForHaptik";
+			};
+			name = Debug;
+		};
+		198A62911E3244BB0001C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatAppForHaptikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatAppForHaptik.app/ChatAppForHaptik";
+			};
+			name = Release;
+		};
+		198A62931E3244BB0001C3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChatAppForHaptikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChatAppForHaptik;
+			};
+			name = Debug;
+		};
+		198A62941E3244BB0001C3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChatAppForHaptikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChatAppForHaptik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198A625F1E3244BA0001C3CE /* Build configuration list for PBXProject "ChatAppForHaptik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A628A1E3244BB0001C3CE /* Debug */,
+				198A628B1E3244BB0001C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198A628C1E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A628D1E3244BB0001C3CE /* Debug */,
+				198A628E1E3244BB0001C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		198A628F1E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A62901E3244BB0001C3CE /* Debug */,
+				198A62911E3244BB0001C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		198A62921E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A62931E3244BB0001C3CE /* Debug */,
+				198A62941E3244BB0001C3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198A625C1E3244BA0001C3CE /* Project object */;
+}
