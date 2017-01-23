@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		198A62681E3244BA0001C3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62671E3244BA0001C3CE /* AppDelegate.swift */; };
-		198A626A1E3244BA0001C3CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62691E3244BA0001C3CE /* ViewController.swift */; };
 		198A626D1E3244BA0001C3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A626B1E3244BA0001C3CE /* Main.storyboard */; };
 		198A626F1E3244BA0001C3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198A626E1E3244BA0001C3CE /* Assets.xcassets */; };
 		198A62721E3244BA0001C3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A62701E3244BA0001C3CE /* LaunchScreen.storyboard */; };
 		198A627D1E3244BB0001C3CE /* ChatAppForHaptikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A627C1E3244BB0001C3CE /* ChatAppForHaptikTests.swift */; };
 		198A62881E3244BB0001C3CE /* ChatAppForHaptikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62871E3244BB0001C3CE /* ChatAppForHaptikUITests.swift */; };
+		198A62961E3245BF0001C3CE /* ChatDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62951E3245BF0001C3CE /* ChatDetailsModel.swift */; };
+		198A62981E324DFF0001C3CE /* ChatConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62971E324DFF0001C3CE /* ChatConversationViewController.swift */; };
+		198A629A1E3252B70001C3CE /* ChatDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62991E3252B70001C3CE /* ChatDetailsTableViewCell.swift */; };
+		198A629C1E3254F20001C3CE /* ChatDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A629B1E3254F20001C3CE /* ChatDetailsViewModel.swift */; };
+		198A62A61E32579B0001C3CE /* NetworkCallHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A62A51E32579B0001C3CE /* NetworkCallHelper.swift */; };
+		19A659A21E3322B40094AD6A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A659A11E3322B40094AD6A /* Utilities.swift */; };
+		19A659A61E3323670094AD6A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A659A51E3323670094AD6A /* MBProgressHUD.m */; };
+		19A659A91E332ABF0094AD6A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A659A81E332ABF0094AD6A /* Reachability.m */; };
+		19A659AB1E33668C0094AD6A /* MessageDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A659AA1E33668C0094AD6A /* MessageDetailsCell.swift */; };
+		19A659AE1E3373E80094AD6A /* star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 19A659AC1E3373E80094AD6A /* star_selected.png */; };
+		19A659AF1E3373E80094AD6A /* Star-un.png in Resources */ = {isa = PBXBuildFile; fileRef = 19A659AD1E3373E80094AD6A /* Star-un.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		198A62641E3244BA0001C3CE /* ChatAppForHaptik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppForHaptik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		198A62671E3244BA0001C3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		198A62691E3244BA0001C3CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		198A626C1E3244BA0001C3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		198A626E1E3244BA0001C3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		198A62711E3244BA0001C3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,20 @@
 		198A62831E3244BB0001C3CE /* ChatAppForHaptikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppForHaptikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		198A62871E3244BB0001C3CE /* ChatAppForHaptikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppForHaptikUITests.swift; sourceTree = "<group>"; };
 		198A62891E3244BB0001C3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198A62951E3245BF0001C3CE /* ChatDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailsModel.swift; sourceTree = "<group>"; };
+		198A62971E324DFF0001C3CE /* ChatConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConversationViewController.swift; sourceTree = "<group>"; };
+		198A62991E3252B70001C3CE /* ChatDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		198A629B1E3254F20001C3CE /* ChatDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailsViewModel.swift; sourceTree = "<group>"; };
+		198A62A51E32579B0001C3CE /* NetworkCallHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCallHelper.swift; sourceTree = "<group>"; };
+		19A659A11E3322B40094AD6A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		19A659A31E3323670094AD6A /* ChatAppForHaptik-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatAppForHaptik-Bridging-Header.h"; sourceTree = "<group>"; };
+		19A659A41E3323670094AD6A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		19A659A51E3323670094AD6A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		19A659A71E332ABF0094AD6A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		19A659A81E332ABF0094AD6A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		19A659AA1E33668C0094AD6A /* MessageDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailsCell.swift; sourceTree = "<group>"; };
+		19A659AC1E3373E80094AD6A /* star_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_selected.png; sourceTree = "<group>"; };
+		19A659AD1E3373E80094AD6A /* Star-un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star-un.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +120,13 @@
 		198A62661E3244BA0001C3CE /* ChatAppForHaptik */ = {
 			isa = PBXGroup;
 			children = (
-				198A62671E3244BA0001C3CE /* AppDelegate.swift */,
-				198A62691E3244BA0001C3CE /* ViewController.swift */,
-				198A626B1E3244BA0001C3CE /* Main.storyboard */,
-				198A626E1E3244BA0001C3CE /* Assets.xcassets */,
-				198A62701E3244BA0001C3CE /* LaunchScreen.storyboard */,
-				198A62731E3244BA0001C3CE /* Info.plist */,
+				19A659A01E3322900094AD6A /* Utils */,
+				198A62A41E32574D0001C3CE /* Helper */,
+				198A62A31E3255910001C3CE /* Other */,
+				198A62A01E3255490001C3CE /* View */,
+				198A629F1E32551F0001C3CE /* ViewModel */,
+				198A629E1E3255120001C3CE /* Model */,
+				198A629D1E3254FA0001C3CE /* Controller */,
 			);
 			path = ChatAppForHaptik;
 			sourceTree = "<group>";
@@ -123,6 +147,90 @@
 				198A62891E3244BB0001C3CE /* Info.plist */,
 			);
 			path = ChatAppForHaptikUITests;
+			sourceTree = "<group>";
+		};
+		198A629D1E3254FA0001C3CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				198A62971E324DFF0001C3CE /* ChatConversationViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		198A629E1E3255120001C3CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				198A62951E3245BF0001C3CE /* ChatDetailsModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		198A629F1E32551F0001C3CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				198A629B1E3254F20001C3CE /* ChatDetailsViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		198A62A01E3255490001C3CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				198A62A21E3255680001C3CE /* StoryBoard */,
+				198A62A11E3255570001C3CE /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		198A62A11E3255570001C3CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				198A62991E3252B70001C3CE /* ChatDetailsTableViewCell.swift */,
+				19A659AA1E33668C0094AD6A /* MessageDetailsCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		198A62A21E3255680001C3CE /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				198A62701E3244BA0001C3CE /* LaunchScreen.storyboard */,
+				198A626B1E3244BA0001C3CE /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		198A62A31E3255910001C3CE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				19A659A71E332ABF0094AD6A /* Reachability.h */,
+				19A659A81E332ABF0094AD6A /* Reachability.m */,
+				19A659A41E3323670094AD6A /* MBProgressHUD.h */,
+				19A659A51E3323670094AD6A /* MBProgressHUD.m */,
+				198A62671E3244BA0001C3CE /* AppDelegate.swift */,
+				198A626E1E3244BA0001C3CE /* Assets.xcassets */,
+				19A659AC1E3373E80094AD6A /* star_selected.png */,
+				19A659AD1E3373E80094AD6A /* Star-un.png */,
+				198A62731E3244BA0001C3CE /* Info.plist */,
+				19A659A31E3323670094AD6A /* ChatAppForHaptik-Bridging-Header.h */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		198A62A41E32574D0001C3CE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				198A62A51E32579B0001C3CE /* NetworkCallHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		19A659A01E3322900094AD6A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				19A659A11E3322B40094AD6A /* Utilities.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +301,8 @@
 				TargetAttributes = {
 					198A62631E3244BA0001C3CE = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = C3HY4MF66F;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					198A62771E3244BB0001C3CE = {
@@ -232,8 +342,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A659AF1E3373E80094AD6A /* Star-un.png in Resources */,
 				198A62721E3244BA0001C3CE /* LaunchScreen.storyboard in Resources */,
 				198A626F1E3244BA0001C3CE /* Assets.xcassets in Resources */,
+				19A659AE1E3373E80094AD6A /* star_selected.png in Resources */,
 				198A626D1E3244BA0001C3CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				198A626A1E3244BA0001C3CE /* ViewController.swift in Sources */,
+				19A659AB1E33668C0094AD6A /* MessageDetailsCell.swift in Sources */,
+				198A629C1E3254F20001C3CE /* ChatDetailsViewModel.swift in Sources */,
+				198A62981E324DFF0001C3CE /* ChatConversationViewController.swift in Sources */,
+				19A659A21E3322B40094AD6A /* Utilities.swift in Sources */,
+				198A62A61E32579B0001C3CE /* NetworkCallHelper.swift in Sources */,
 				198A62681E3244BA0001C3CE /* AppDelegate.swift in Sources */,
+				198A629A1E3252B70001C3CE /* ChatDetailsTableViewCell.swift in Sources */,
+				198A62961E3245BF0001C3CE /* ChatDetailsModel.swift in Sources */,
+				19A659A91E332ABF0094AD6A /* Reachability.m in Sources */,
+				19A659A61E3323670094AD6A /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +532,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = C3HY4MF66F;
 				INFOPLIST_FILE = ChatAppForHaptik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChatAppForHaptik/ChatAppForHaptik-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +549,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = C3HY4MF66F;
 				INFOPLIST_FILE = ChatAppForHaptik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kalpesh.dhumal.ChatAppForHaptik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChatAppForHaptik/ChatAppForHaptik-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +634,7 @@
 				198A628E1E3244BB0001C3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		198A628F1E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptikTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +643,7 @@
 				198A62911E3244BB0001C3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		198A62921E3244BB0001C3CE /* Build configuration list for PBXNativeTarget "ChatAppForHaptikUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +652,7 @@
 				198A62941E3244BB0001C3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
